@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Production
+build/
+dist/
+out/
+.next/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Misc
+.DS_Store
+*.pem
+.vercel
+.cache
+.temp
+.tmp
+
+# Local SSL
+*.key
+*.crt
+*.cert
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock 
